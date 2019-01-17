@@ -1,0 +1,43 @@
+  /*.navbar {*//*background-color: #FCE4EC;*//*}*/
+body {
+  background-image: url('dreamsBackground.png');
+  display: flex;
+
+}
+
+.masterCard {
+  margin: 5%;
+  /*position: relative;*/
+}
+
+.masterCardBody::-webkit-scrollbar {
+  display: none;
+
+}
+
+.masterCardBody {
+  height: 70%;
+  width: auto;
+  overflow: auto;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  /*position: relative;*/
+
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+.cardsRow {
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*z-index: 1;*/
+  /*position  : absolute;*/
+}
+
+.fixed {
+  position: fixed;
+}
